@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #171C2C;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    background: url("https://via.placeholder.com/1600x600") no-repeat center center/cover;
+    padding: 100px 20px;
+    font-size: 24px;
+}
+
+.hero button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hero button:hover {
+    background-color: #ffaa00;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+.about, .tokenomics, .roadmap {
+    background-color: #222;
+    margin: 20px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 12px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+.community {
+    background-color: #111;
+    padding: 20px;
+}
+
+.community a {
+    color: #ffcc00;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.community a:hover {
+    color: #ffaa00;
+}
